@@ -1,8 +1,8 @@
 import imageio
 import numpy as np
 
-gif_path = '/home/ulysse/Documents/gifmaker/original.gif'
-output_path = '/home/ulysse/Documents/gifmaker/multiplied.gif'
+gif_path = 'original.gif'
+output_path = 'multiplied.gif'
 
 def multiply_gif(gif, factor):
     new_gif = []
